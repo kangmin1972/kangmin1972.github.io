@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,1)),url("image/header.png");
+	background-size: cover;
+	background-position: center;
+    
+}
+.menubar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 350px;
+	cursor: pointer;
+}
+
+.menubar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.menubar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.menubar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.menubar ul li:hover::after{
+	width: 100%;
+}
+
+.maintext{
+	width: 100%;
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #FFFFFF;
+}
+.maintext h1{
+	font-size: 70px;
+	margin-top: 20px;
+}
+.maintext p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+.maintext h2{
+	font-size: 65px;
+	color: red;
+}
+
