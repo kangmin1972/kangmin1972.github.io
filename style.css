@@ -76,6 +76,29 @@
 }
 .maintext h2{
 	font-size: 65px;
-	color: red;
+	color: white;
 }
+.maintext h3{
+	font-size: 30px;
+	color: white;
+}
+
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+	div{
+	text-align: left;
+	}
+    
 
